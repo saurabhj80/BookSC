@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_chats"
+            android:title="Chats" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item android:id="@+id/nav_signOut"
+                android:title="Sign Out" />
+
+        </menu>
+    </item>
+
+</menu><!-- From: file:/Users/saurabhj80/Desktop/BookSC/BookSC/src/main/res/menu/activity_main_drawer.xml -->
